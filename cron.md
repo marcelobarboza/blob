@@ -1,111 +1,111 @@
-- 3/10/1986:
-	- [1] plano de ensino                    
-	- [2] incompletude dos racionais         
-- 6/10/1986:
-	- [2] conjuntos ordenados                
-	- [1] supremo e ínfimo                   
-- 8/10/1986:
-	- [1] supremo e ínfimo                   
-	- [2] corpos                             
-- 10/10/1986:
-	- [2] corpos ordenados                   
-	- [1] corpos arquimedianos               
-- 13/10/1986:
-	- [1] corpos arquimedianos               
-	- [2] os reais                           
-- 15/10/1986:
-	- [2] raízes n-ésimas                    
-	- [1] representação decimal              
-- 17/10/1986:
-	- [1] representação decimal              
-	- [2] cortes de Dedekind                 
-- 20/10/1986:
-	- [2] questionário 1                     
-	- [1] conjuntos finitos                  
-- 22/10/1986:
-	- [1] conjuntos finitos                  
-	- [2] conjuntos enumeráveis              
-- 24/10/1986:
-	- [2] conjuntos não-enumeráveis          
-	- [1] sequências                         
-- 27/10/1986:
-	- [1] sequências                         
-	- [2] subsequências                      
-- 29/10/1986:
-	- [2] sequências de Cauchy               
-	- [1] valor de aderência                 
-- 31/10/1986:
-	- [1] valor de aderência                 
-	- [2] limsup e liminf                    
-- 3/11/1986:
-	- [2] limites infinitos                  
-	- [1] algumas sequências especiais       
-- 5/11/1986:
-	- [1] algumas sequências especiais       
-	- [2] questionário 2                     
-- 7/11/1986:
-	- [2] séries                             
-	- [1] séries de termos não-negativos     
-- 10/11/1986:
-	- [1] séries de termos não-negativos     
-	- [2] séries absolutamente convergentes  
-- 12/11/1986:
-	- [2] critérios de convergência          
-	- [1] adição de séries                   
-- 14/11/1986:
-	- [1] adição de séries                   
-	- [2] multiplicação de séries            
-- 17/11/1986:
-	- [2] rearranjos                         
-	- [1] conjuntos abertos                  
-- 19/11/1986:
-	- [1] conjuntos abertos                  
-	- [2] conjuntos fechados                 
-- 21/11/1986:
-	- [2] pontos de acumulação               
-	- [1] questionário 3                     
-- 24/11/1986:
-	- [1] questionário 3                     
-	- [2] conjuntos compactos                
-- 26/11/1986:
-	- [2] conjuntos conexos                  
-	- [1] estrutura dos abertos da reta      
-- 28/11/1986:
-	- [1] estrutura dos abertos da reta      
-	- [2] limites de funções                 
-- 1/12/1986:
-	- [2] limites laterais                   
-	- [1] limites infinitos                  
-- 3/12/1986:
-	- [1] limites infinitos                  
-	- [2] limites no infinito                
-- 5/12/1986:
-	- [2] valor de aderência de uma função   
-	- [1] funções contínuas                  
-- 8/12/1986:
-	- [1] funções contínuas                  
-	- [2] continuidade e compacidade         
-- 10/12/1986:
-	- [2] questionário 4                     
-	- [1] continuidade e conexidade          
-- 12/12/1986:
-	- [1] continuidade e conexidade          
-	- [2] descontinuidades                   
-- 15/12/1986:
-	- [2] funções monótonas                  
-	- [1] derivada de uma função             
-- 17/12/1986:
-	- [1] derivada de uma função             
-	- [2] Teoremas de Rolle e do Valor Médio 
-- 19/12/1986:
-	- [2] continuidade de derivadas          
-	- [1] regra de L'Hospital                
-- 22/12/1986:
-	- [1] regra de L'Hospital                
-	- [2] derivadas de ordem superior        
-- 26/12/1986:
-	- [2] fórmula de Taylor                  
-	- [1] aplicação: máximos e mínimos locais
-- 29/12/1986:
-	- [1] aplicação: máximos e mínimos locais
-	- [2] questionário 5                     
+- 3/10/1985:
+	- plano de ensino: 1
+	- incompletude dos racionais: 2
+- 3/10/1985:
+	- conjuntos ordenados: 2
+	- supremo e ínfimo: 1
+- 3/10/1985:
+	- supremo e ínfimo: 1
+	- corpos: 2
+- 3/10/1985:
+	- corpos ordenados: 2
+	- corpos arquimedianos: 1
+- 3/10/1985:
+	- corpos arquimedianos: 1
+	- os reais: 2
+- 3/10/1985:
+	- raízes n-ésimas: 2
+	- representação decimal: 1
+- 3/10/1985:
+	- representação decimal: 1
+	- cortes de Dedekind: 2
+- 3/10/1985:
+	- questionário 1: 2
+	- conjuntos finitos: 1
+- 3/10/1985:
+	- conjuntos finitos: 1
+	- conjuntos enumeráveis: 2
+- 3/10/1985:
+	- conjuntos não-enumeráveis: 2
+	- sequências: 1
+- 3/10/1985:
+	- sequências: 1
+	- subsequências: 2
+- 3/10/1985:
+	- sequências de Cauchy: 2
+	- valor de aderência: 1
+- 3/10/1985:
+	- valor de aderência: 1
+	- limsup e liminf: 2
+- 3/10/1985:
+	- limites infinitos: 2
+	- algumas sequências especiais: 1
+- 3/10/1985:
+	- algumas sequências especiais: 1
+	- questionário 2: 2
+- 3/10/1985:
+	- séries: 2
+	- séries de termos não-negativos: 1
+- 3/10/1985:
+	- séries de termos não-negativos: 1
+	- séries absolutamente convergentes: 2
+- 3/10/1985:
+	- critérios de convergência: 2
+	- adição de séries: 1
+- 3/10/1985:
+	- adição de séries: 1
+	- multiplicação de séries: 2
+- 3/10/1985:
+	- rearranjos: 2
+	- conjuntos abertos: 1
+- 3/10/1985:
+	- conjuntos abertos: 1
+	- conjuntos fechados: 2
+- 3/10/1985:
+	- pontos de acumulação: 2
+	- questionário 3: 1
+- 3/10/1985:
+	- questionário 3: 1
+	- conjuntos compactos: 2
+- 3/10/1985:
+	- conjuntos conexos: 2
+	- estrutura dos abertos da reta: 1
+- 3/10/1985:
+	- estrutura dos abertos da reta: 1
+	- limites de funções: 2
+- 3/10/1985:
+	- limites laterais: 2
+	- limites infinitos: 1
+- 3/10/1985:
+	- limites infinitos: 1
+	- limites no infinito: 2
+- 3/10/1985:
+	- valor de aderência de uma função: 2
+	- funções contínuas: 1
+- 3/10/1985:
+	- funções contínuas: 1
+	- continuidade e compacidade: 2
+- 3/10/1985:
+	- questionário 4: 2
+	- continuidade e conexidade: 1
+- 3/10/1985:
+	- continuidade e conexidade: 1
+	- descontinuidades: 2
+- 3/10/1985:
+	- funções monótonas: 2
+	- derivada de uma função: 1
+- 3/10/1985:
+	- derivada de uma função: 1
+	- Teoremas de Rolle e do Valor Médio: 2
+- 3/10/1985:
+	- continuidade de derivadas: 2
+	- regra de L'Hospital: 1
+- 3/10/1985:
+	- regra de L'Hospital: 1
+	- derivadas de ordem superior: 2
+- 3/10/1985:
+	- fórmula de Taylor: 2
+	- aplicação: máximos e mínimos locais: 1
+- 3/10/1985:
+	- aplicação: máximos e mínimos locais: 1
+	- questionário 5: 2
