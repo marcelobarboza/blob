@@ -1,88 +1,111 @@
-- 10/5/2021:
-	- [1] plano de ensino
-	- [1] conjuntos
-	- [1] funções
-	- [1] questionário
-	- [1] relações de equivalência
-	- [1] operações binárias
-- 17/5/2021:
-	- [1] monóides
-	- [1] questionário
-	- [1] semigrupos
-	- [1] grupos
-	- [1] grupos de permutações
-	- [1] questionário
-- 24/5/2021:
-	- [1] notação cíclica
-	- [1] fatoração em ciclos disjuntos
-	- [1] sinal de uma permutação
-	- [1] questionário
-	- [1] grupos alternados
-	- [1] conjuntos geradores
-- 31/5/2021:
-	- [1] grupos cíclicos
-	- [1] questionário
-	- [1] produto direto de grupos
-	- [1] subgrupos
-	- [1] classes laterais
-	- [1] questionário
-- 7/6/2021:
-	- [1] Teorema de Lagrange
-	- [1] centralizadores
-	- [1] centro
-	- [1] questionário
-	- [1] conjugação
-	- [1] equação de classes
-- 14/6/2021:
-	- [1] p-grupos finitos
-	- [1] questionário
-	- [1] subgrupos normais
-	- [1] grupos quocientes
-	- [1] homomorfismos de grupos
-	- [1] questionário
-- 21/6/2021:
-	- [1] Teoremas do isomorfismo
-	- [1] Teoremas da correspondência
-	- [1] Teorema de Cayley
-	- [1] questionário
-	- [1] Teorema de Cauchy
-	- [1] representações por permutações
-- 28/6/2021:
-	- [1] Teoremas de Sylow
-	- [1] questionário
-	- [1] aplicações dos Teoremas de Sylow
-	- [1] automorfismos de grupos
-	- [1] produtos semi-diretos de grupos
-	- [1] questionário
-- 5/7/2021:
-	- [1] anéis
-	- [1] subanéis
-	- [1] ideais
-	- [1] questionário
-	- [1] anéis quocientes
-	- [1] anéis de polinômios
-- 12/7/2021:
-	- [1] ideais principais
-	- [1] questionário
-	- [1] domínios euclidianos
-	- [1] Teorema fundamental da aritmética
-	- [1] ideais maximais
-	- [1] questionário
-- 19/7/2021:
-	- [1] homomorfismos de anéis
-	- [1] Teoremas do isomorfismo
-	- [1] Teorema da correspondência
-	- [1] questionário
-	- [1] domínios de integridade
-	- [1] corpos
-- 26/7/2021:
-	- [1] o corpo das frações de um domínio
-	- [1] questionário
-	- [1] extensões de corpos
-	- [1] Teorema de Kronecker
-	- [1] o corpo dos números complexos
-	- [1] questionário
-- 2/8/2021:
-	- [1] grupos solúveis
-	- [1] grupos nilpotentes
-	- [1] questionário
+- 3/10/1986:
+	- [1] plano de ensino                    
+	- [2] incompletude dos racionais         
+- 6/10/1986:
+	- [2] conjuntos ordenados                
+	- [1] supremo e ínfimo                   
+- 8/10/1986:
+	- [1] supremo e ínfimo                   
+	- [2] corpos                             
+- 10/10/1986:
+	- [2] corpos ordenados                   
+	- [1] corpos arquimedianos               
+- 13/10/1986:
+	- [1] corpos arquimedianos               
+	- [2] os reais                           
+- 15/10/1986:
+	- [2] raízes n-ésimas                    
+	- [1] representação decimal              
+- 17/10/1986:
+	- [1] representação decimal              
+	- [2] cortes de Dedekind                 
+- 20/10/1986:
+	- [2] questionário 1                     
+	- [1] conjuntos finitos                  
+- 22/10/1986:
+	- [1] conjuntos finitos                  
+	- [2] conjuntos enumeráveis              
+- 24/10/1986:
+	- [2] conjuntos não-enumeráveis          
+	- [1] sequências                         
+- 27/10/1986:
+	- [1] sequências                         
+	- [2] subsequências                      
+- 29/10/1986:
+	- [2] sequências de Cauchy               
+	- [1] valor de aderência                 
+- 31/10/1986:
+	- [1] valor de aderência                 
+	- [2] limsup e liminf                    
+- 3/11/1986:
+	- [2] limites infinitos                  
+	- [1] algumas sequências especiais       
+- 5/11/1986:
+	- [1] algumas sequências especiais       
+	- [2] questionário 2                     
+- 7/11/1986:
+	- [2] séries                             
+	- [1] séries de termos não-negativos     
+- 10/11/1986:
+	- [1] séries de termos não-negativos     
+	- [2] séries absolutamente convergentes  
+- 12/11/1986:
+	- [2] critérios de convergência          
+	- [1] adição de séries                   
+- 14/11/1986:
+	- [1] adição de séries                   
+	- [2] multiplicação de séries            
+- 17/11/1986:
+	- [2] rearranjos                         
+	- [1] conjuntos abertos                  
+- 19/11/1986:
+	- [1] conjuntos abertos                  
+	- [2] conjuntos fechados                 
+- 21/11/1986:
+	- [2] pontos de acumulação               
+	- [1] questionário 3                     
+- 24/11/1986:
+	- [1] questionário 3                     
+	- [2] conjuntos compactos                
+- 26/11/1986:
+	- [2] conjuntos conexos                  
+	- [1] estrutura dos abertos da reta      
+- 28/11/1986:
+	- [1] estrutura dos abertos da reta      
+	- [2] limites de funções                 
+- 1/12/1986:
+	- [2] limites laterais                   
+	- [1] limites infinitos                  
+- 3/12/1986:
+	- [1] limites infinitos                  
+	- [2] limites no infinito                
+- 5/12/1986:
+	- [2] valor de aderência de uma função   
+	- [1] funções contínuas                  
+- 8/12/1986:
+	- [1] funções contínuas                  
+	- [2] continuidade e compacidade         
+- 10/12/1986:
+	- [2] questionário 4                     
+	- [1] continuidade e conexidade          
+- 12/12/1986:
+	- [1] continuidade e conexidade          
+	- [2] descontinuidades                   
+- 15/12/1986:
+	- [2] funções monótonas                  
+	- [1] derivada de uma função             
+- 17/12/1986:
+	- [1] derivada de uma função             
+	- [2] Teoremas de Rolle e do Valor Médio 
+- 19/12/1986:
+	- [2] continuidade de derivadas          
+	- [1] regra de L'Hospital                
+- 22/12/1986:
+	- [1] regra de L'Hospital                
+	- [2] derivadas de ordem superior        
+- 26/12/1986:
+	- [2] fórmula de Taylor                  
+	- [1] aplicação: máximos e mínimos locais
+- 29/12/1986:
+	- [1] aplicação: máximos e mínimos locais
+	- [2] questionário 5                     
