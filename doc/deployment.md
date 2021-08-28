@@ -1,8 +1,8 @@
 # Deployment Instructions
 
 After installing dependencies (see [External Dependencies][1]) and configuring
-your database (see [Database Configuring][2]) it's time to download, configure,
-build and run **Blob**.
+your database (see [Database Configuration][2]) it's time to download,
+configure, build and run **Blob**.
 
 ### Download
 

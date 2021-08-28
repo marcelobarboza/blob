@@ -29,7 +29,7 @@ blob_t blob = {wed, 2};
 
 states that you have 2 classes of something every Wednesday (for how long is
 something determined by your databases. See [Database Configuration][1]).
-Instead, the blob declaration
+Instead, declaration
 
 ```C
 blob_t blob[2] = {{tue, 3}, {thu,2}};
