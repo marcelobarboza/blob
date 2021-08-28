@@ -6,7 +6,7 @@ build and run **Blob**.
 
 ### Download
 
-To download it type
+To download it, type
 
 ```Shell
 git clone https://github.com/marcelobarboza/blob ~/Projects/blob
@@ -16,7 +16,7 @@ on the command line.
 
 ### Configure
 
-Get into the project's folder
+Get into the project's folder with
 
 ```Shell
 cd ~/Projects/blob
@@ -30,8 +30,8 @@ your liking in the scope of the cron function in `src/blob.c`.
 
 ### Build
 
-Build instructions can be found in the `makefile`. If you have the [GNU Make][3]
-at your disposal, just type
+Build instructions can be found in `makefile`. If you have the [GNU Make][3] at
+your disposal, then type
 
 ```Shell
 make

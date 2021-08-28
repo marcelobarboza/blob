@@ -4,17 +4,15 @@ Days of the week are numbered like this:
 
 > sun: 0, mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6.
 
-Also, to increase readability the following variable type
+Also, to increase readability the following variable type has been created:
 
 ```C
 typedef enum {sun, mon, tue, wed, thu, fri, sat} wday_t;
 ```
 
-has been created.
-
 ### Blob
 
-A blob is a variable of the following kind:
+The concept of a blob is a very simple one. A blob is a variable of type
 
 ```C
 typedef struct {
@@ -23,7 +21,7 @@ typedef struct {
 } blob_t;
 ```
 
-The concept of a blob is a very simple one. A declaration like
+A declaration like
 
 ```C
 blob_t blob = {wed, 2};
