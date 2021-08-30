@@ -19,7 +19,7 @@ The definition of a [blob][1].
 
 [Install][2] external dependencies.
 
-### Database configuration
+### Database Configuration
 
 [How][3] to configure your database.
 
@@ -27,7 +27,7 @@ The definition of a [blob][1].
 
 [Here][4] you'll find deployment instructions.
 
-### Contribution guidelines
+### Contribution Guidelines
 
 * Writing tests
 * Code review
