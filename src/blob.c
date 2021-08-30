@@ -66,21 +66,21 @@ void cron(const int s, const char *const S, const int b, const blob_t *const B,
       while (k > 0 && i < PQntuples(R))
         if (j > 0) {
           if (j <= k) {
-            fprintf(cronf, "\t- [%d] %s\n", j, PQgetvalue(R, i++, 1));
+            fprintf(cronf, "\t- %s: %d\n", PQgetvalue(R, i++, 1), j);
             k -= j;
             j = 0;
           } else {
-            fprintf(cronf, "\t- [%d] %s\n", k, PQgetvalue(R, i, 1));
+            fprintf(cronf, "\t- %s: %d\n", PQgetvalue(R, i, 1), k);
             j -= k;
             k = 0;
           }
         } else {
           if (atoi(PQgetvalue(R, i, 2)) <= k) {
-            fprintf(cronf, "\t- [%s] %s\n", PQgetvalue(R, i, 2),
-                    PQgetvalue(R, i, 1));
+            fprintf(cronf, "\t- %s: %s\n", PQgetvalue(R, i, 1),
+                    PQgetvalue(R, i, 2));
             k -= atoi(PQgetvalue(R, i++, 2));
           } else {
-            fprintf(cronf, "\t- [%d] %s\n", k, PQgetvalue(R, i, 1));
+            fprintf(cronf, "\t- %s: %d\n", PQgetvalue(R, i, 1), k);
             j = atoi(PQgetvalue(R, i, 2)) - k;
             k = 0;
           }
