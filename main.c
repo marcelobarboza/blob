@@ -1,6 +1,8 @@
 #include "args.h"
 #include "blob.h"
 
+#define HDAYS 15
+
 int main(int argc, char **argv) {
   if (argc == 2) {
     if (strcmp("-h", argv[1]) == 0 || strcmp("--help", argv[1]) == 0)
@@ -17,23 +19,23 @@ int main(int argc, char **argv) {
 
     const date_t EASTER = easter(YEAR);
 
-    date_t holidays[15] = {{YEAR, 1, 1},
-                             time_travel(EASTER, -48),
-                             time_travel(EASTER, -47),
-                             time_travel(EASTER, -46),
-                             time_travel(EASTER, -3),
-                             time_travel(EASTER, 60),
-                             {YEAR, 4, 21},
-                             {YEAR, 9, 7},
-                             {YEAR, 10, 12},
-                             {YEAR, 10, 28},
-                             {YEAR, 11, 2},
-                             {YEAR, 11, 15},
-                             {YEAR, 12, 24},
-                             {YEAR, 12, 25},
-                             {YEAR, 12, 31}};
+    date_t holidays[HDAYS] = {{YEAR, 1, 1},
+                              time_travel(EASTER, -48),
+                              time_travel(EASTER, -47),
+                              time_travel(EASTER, -46),
+                              time_travel(EASTER, -3),
+                              time_travel(EASTER, 60),
+                              {YEAR, 4, 21},
+                              {YEAR, 9, 7},
+                              {YEAR, 10, 12},
+                              {YEAR, 10, 28},
+                              {YEAR, 11, 2},
+                              {YEAR, 11, 15},
+                              {YEAR, 12, 24},
+                              {YEAR, 12, 25},
+                              {YEAR, 12, 31}};
 
-    bubble_sort(15, holidays);
+    bubble_sort(HDAYS, holidays);
 
     date_t date = {YEAR, MONTH, DAY};
 
@@ -42,13 +44,12 @@ int main(int argc, char **argv) {
 
     blober(BLOBS, &blob, date);
 
-    cron(strlen(TABLE), TABLE, BLOBS, blob, 15, holidays, date);
+    cron(strlen(TABLE), TABLE, BLOBS, blob, HDAYS, holidays, date);
 
     free(TABLE);
     free(blob);
 
     printf("\n\tcron.md file generated.\n\n");
-
   }
   return 0;
 }
