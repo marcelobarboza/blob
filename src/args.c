@@ -9,9 +9,9 @@ void help(void) {
 \tM\tmonth\n\
 \tD\tday\n\
 \tB\tnumber of blobs\n\n\
-Please, refer to\n\n\
-\thttps://bitbucket.org/mbbsd/blob/doc\n\n\
-for more details.\n");
+For more information, please take a look the README. There's also an online\n\
+version of this at my github page:\n\n\
+\thttps://github.com/marcelobarboza/blob\n\n");
 }
 
 void parser(int a, char **A, char **T, int *Y, int *M, int *D, int *B) {

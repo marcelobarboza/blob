@@ -12,30 +12,34 @@ BLOB_H_INCLUDED	src/blob.h	/^#define BLOB_H_INCLUDED$/;"	d
 Blob	README.md	/^# Blob$/;"	c
 Blob	doc/blob.md	/^### Blob$/;"	S
 Build	doc/deployment.md	/^### Build$/;"	S	chapter:Deployment Instructions
-CC	makefile	/^CC = gcc$/;"	m
+CC	makefile	/^CC  = gcc$/;"	m
 Configure	doc/deployment.md	/^### Configure$/;"	S	chapter:Deployment Instructions
 Contact	README.md	/^### Contact$/;"	S	chapter:Blob
-Contribution guidelines	README.md	/^### Contribution guidelines$/;"	S	chapter:Blob
+Contribution Guidelines	README.md	/^### Contribution Guidelines$/;"	S	chapter:Blob
 DATE_H_INCLUDED	src/date.h	/^#define DATE_H_INCLUDED$/;"	d
+Database Configuration	README.md	/^### Database Configuration$/;"	S	chapter:Blob
 Database Configuration	doc/database.md	/^# Database Configuration$/;"	c
-Database configuration	README.md	/^### Database configuration$/;"	S	chapter:Blob
 Days Of The Week	doc/blob.md	/^### Days Of The Week$/;"	S
 Deployment Instructions	README.md	/^### Deployment Instructions$/;"	S	chapter:Blob
 Deployment Instructions	doc/deployment.md	/^# Deployment Instructions$/;"	c
 Download	doc/deployment.md	/^### Download$/;"	S	chapter:Deployment Instructions
 External Dependencies	README.md	/^### External Dependencies$/;"	S	chapter:Blob
 External Dependencies	doc/dependencies.md	/^### External Dependencies$/;"	S
+FLG	makefile	/^FLG = -Werror -Isrc -I\/usr\/include\/postgresql$/;"	m
 GCC	doc/dependencies.md	/^##### GCC$/;"	T	subsection:External Dependencies
+HDAYS	main.c	/^#define HDAYS /;"	d	file:
+LIB	makefile	/^LIB = -lpq$/;"	m
 MENU_H_INCLUDED	src/args.h	/^#define MENU_H_INCLUDED$/;"	d
 PostgreSQL	doc/dependencies.md	/^##### PostgreSQL$/;"	T	subsection:External Dependencies
 Project's Name	README.md	/^### Project's Name$/;"	S	chapter:Blob
 Project's Name	doc/blob.md	/^### Project's Name$/;"	S
 Run	doc/deployment.md	/^### Run$/;"	S	chapter:Deployment Instructions
+SRC	makefile	/^SRC = src\/args.c src\/blob.c src\/date.c src\/test.c main.c$/;"	m
 TEST_H_INCLUDED	src/test.h	/^#define TEST_H_INCLUDED$/;"	d
 __anon51b847510108	src/blob.h	/^typedef struct {$/;"	s
 __anon559e55b00108	src/date.h	/^typedef struct {$/;"	s
 __anon559e55b00203	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	g
-blob	makefile	/^blob: src\/date.c src\/blob.c src\/args.c src\/test.c main.c$/;"	t
+blob	makefile	/^blob:$/;"	t
 blob_t	src/blob.h	/^} blob_t;$/;"	t	typeref:struct:__anon51b847510108
 blober	src/blob.c	/^void blober(const int b, blob_t **B, const date_t d) {$/;"	f	typeref:typename:void
 bubble_sort	src/date.c	/^void bubble_sort(const int h, date_t *const H) {$/;"	f	typeref:typename:void
@@ -55,7 +59,6 @@ main	main.c	/^int main(int argc, char **argv) {$/;"	f	typeref:typename:int
 mon	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	e	enum:__anon559e55b00203
 month	src/date.h	/^  int month;$/;"	m	struct:__anon559e55b00108	typeref:typename:int
 nclss	src/blob.c	/^static int nclss(const int b, const blob_t *const B, const date_t d) {$/;"	f	typeref:typename:int	file:
-odt	makefile	/^odt:$/;"	t
 ordering	src/date.c	/^int ordering(date_t d1, date_t d2) {$/;"	f	typeref:typename:int
 parser	src/args.c	/^void parser(int a, char **A, char **T, int *Y, int *M, int *D, int *B) {$/;"	f	typeref:typename:void
 qty	src/blob.h	/^  int qty;$/;"	m	struct:__anon51b847510108	typeref:typename:int

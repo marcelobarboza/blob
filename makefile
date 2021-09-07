@@ -1,6 +1,9 @@
-CC = gcc
+CC  = gcc
+FLG = -Werror -Isrc -I/usr/include/postgresql
+LIB = -lpq
+SRC = src/args.c src/blob.c src/date.c src/test.c main.c
 
-blob: src/date.c src/blob.c src/args.c src/test.c main.c
-	$(CC) -o $@.o $^ -Isrc -I/usr/include/postgresql -lpq -Werror
+blob:
+	$(CC) $(SRC) $(FLG) $(LIB) -o $@.o
 
 .PHONY: blob

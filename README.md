@@ -35,8 +35,7 @@ The definition of a [blob][1].
 
 ### Contact
 
-* MPBSD
-* <salve.barboza@pm.me>
+* salve.barboza at pm dot me
 
 [1]: doc/blob.md
 [2]: doc/dependencies.md

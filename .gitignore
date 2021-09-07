@@ -2,4 +2,5 @@
 *.out
 .DS_Store
 .clang-format
+cron.md
 tags
