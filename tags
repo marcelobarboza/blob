@@ -12,11 +12,13 @@ BLOB_H_INCLUDED	src/blob.h	/^#define BLOB_H_INCLUDED$/;"	d
 Blob	README.md	/^# Blob$/;"	c
 Blob	doc/blob.md	/^### Blob$/;"	S
 Build	doc/deployment.md	/^### Build$/;"	S	chapter:Deployment Instructions
-CC	makefile	/^CC  = gcc$/;"	m
+CC	makefile	/^CC      = gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS  = -Werror$/;"	m
 Configure	doc/deployment.md	/^### Configure$/;"	S	chapter:Deployment Instructions
 Contact	README.md	/^### Contact$/;"	S	chapter:Blob
 Contribution Guidelines	README.md	/^### Contribution Guidelines$/;"	S	chapter:Blob
 DATE_H_INCLUDED	src/date.h	/^#define DATE_H_INCLUDED$/;"	d
+DIRS	makefile	/^DIRS    = -Isrc -I\/usr\/include\/postgresql$/;"	m
 Database Configuration	README.md	/^### Database Configuration$/;"	S	chapter:Blob
 Database Configuration	doc/database.md	/^# Database Configuration$/;"	c
 Days Of The Week	doc/blob.md	/^### Days Of The Week$/;"	S
@@ -25,57 +27,56 @@ Deployment Instructions	doc/deployment.md	/^# Deployment Instructions$/;"	c
 Download	doc/deployment.md	/^### Download$/;"	S	chapter:Deployment Instructions
 External Dependencies	README.md	/^### External Dependencies$/;"	S	chapter:Blob
 External Dependencies	doc/dependencies.md	/^### External Dependencies$/;"	S
-FLG	makefile	/^FLG = -Werror -Isrc -I\/usr\/include\/postgresql$/;"	m
 GCC	doc/dependencies.md	/^##### GCC$/;"	T	subsection:External Dependencies
 HDAYS	main.c	/^#define HDAYS /;"	d	file:
-LIB	makefile	/^LIB = -lpq$/;"	m
+LIBS	makefile	/^LIBS    = -lpq$/;"	m
 MENU_H_INCLUDED	src/args.h	/^#define MENU_H_INCLUDED$/;"	d
 PostgreSQL	doc/dependencies.md	/^##### PostgreSQL$/;"	T	subsection:External Dependencies
 Project's Name	README.md	/^### Project's Name$/;"	S	chapter:Blob
 Project's Name	doc/blob.md	/^### Project's Name$/;"	S
 Run	doc/deployment.md	/^### Run$/;"	S	chapter:Deployment Instructions
-SRC	makefile	/^SRC = src\/args.c src\/blob.c src\/date.c src\/test.c main.c$/;"	m
+SOURCES	makefile	/^SOURCES = src\/args.c src\/blob.c src\/date.c src\/test.c main.c$/;"	m
 TEST_H_INCLUDED	src/test.h	/^#define TEST_H_INCLUDED$/;"	d
 __anon51b847510108	src/blob.h	/^typedef struct {$/;"	s
 __anon559e55b00108	src/date.h	/^typedef struct {$/;"	s
 __anon559e55b00203	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	g
 blob	makefile	/^blob:$/;"	t
 blob_t	src/blob.h	/^} blob_t;$/;"	t	typeref:struct:__anon51b847510108
-blober	src/blob.c	/^void blober(const int b, blob_t **B, const date_t d) {$/;"	f	typeref:typename:void
-bubble_sort	src/date.c	/^void bubble_sort(const int h, date_t *const H) {$/;"	f	typeref:typename:void
-cron	src/blob.c	/^void cron(const int s, const char *const S, const int b, const blob_t *const B,$/;"	f	typeref:typename:void
+blober	src/blob.c	/^blober(const int b, blob_t **B, const date_t d)$/;"	f	typeref:typename:void
+bubble_sort	src/date.c	/^bubble_sort(const int h, date_t *const H)$/;"	f	typeref:typename:void
+cron	src/blob.c	/^cron(const int s, const char *const S, const int b, const blob_t *const B,$/;"	f	typeref:typename:void
 date_t	src/date.h	/^} date_t;$/;"	t	typeref:struct:__anon559e55b00108
 day	src/date.h	/^  int day;$/;"	m	struct:__anon559e55b00108	typeref:typename:int
-days_in_month	src/date.c	/^int days_in_month(int year, int month) {$/;"	f	typeref:typename:int
-delta	src/blob.c	/^static int delta(const int b, const blob_t *const B, const date_t d) {$/;"	f	typeref:typename:int	file:
-easter	src/date.c	/^date_t easter(int year) {$/;"	f	typeref:typename:date_t
-found_in	src/date.c	/^bool found_in(const int h, const date_t *const H, const date_t d) {$/;"	f	typeref:typename:bool
+days_in_month	src/date.c	/^days_in_month(int year, int month)$/;"	f	typeref:typename:int
+delta	src/blob.c	/^delta(const int b, const blob_t *const B, const date_t d)$/;"	f	typeref:typename:int	file:
+easter	src/date.c	/^easter(int year)$/;"	f	typeref:typename:date_t
+found_in	src/date.c	/^found_in(const int h, const date_t *const H, const date_t d)$/;"	f	typeref:typename:bool
 fri	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	e	enum:__anon559e55b00203
-from_ordinal	src/date.c	/^date_t from_ordinal(int ndays) {$/;"	f	typeref:typename:date_t
-from_ordinal_cancels_out_to_ordinal	src/test.c	/^bool from_ordinal_cancels_out_to_ordinal(date_t date) {$/;"	f	typeref:typename:bool
-help	src/args.c	/^void help(void) {$/;"	f	typeref:typename:void
-is_leap	src/date.c	/^bool is_leap(int year) {$/;"	f	typeref:typename:bool
+from_ordinal	src/date.c	/^from_ordinal(int ndays)$/;"	f	typeref:typename:date_t
+from_ordinal_cancels_out_to_ordinal	src/test.c	/^from_ordinal_cancels_out_to_ordinal(date_t date)$/;"	f	typeref:typename:bool
+help	src/args.c	/^help(void)$/;"	f	typeref:typename:void
+is_leap	src/date.c	/^is_leap(int year)$/;"	f	typeref:typename:bool
 main	main.c	/^int main(int argc, char **argv) {$/;"	f	typeref:typename:int
 mon	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	e	enum:__anon559e55b00203
 month	src/date.h	/^  int month;$/;"	m	struct:__anon559e55b00108	typeref:typename:int
-nclss	src/blob.c	/^static int nclss(const int b, const blob_t *const B, const date_t d) {$/;"	f	typeref:typename:int	file:
-ordering	src/date.c	/^int ordering(date_t d1, date_t d2) {$/;"	f	typeref:typename:int
-parser	src/args.c	/^void parser(int a, char **A, char **T, int *Y, int *M, int *D, int *B) {$/;"	f	typeref:typename:void
+nclss	src/blob.c	/^nclss(const int b, const blob_t *const B, const date_t d)$/;"	f	typeref:typename:int	file:
+ordering	src/date.c	/^ordering(date_t d1, date_t d2)$/;"	f	typeref:typename:int
+parser	src/args.c	/^parser(int a, char **A, char **T, int *Y, int *M, int *D, int *B)$/;"	f	typeref:typename:void
 qty	src/blob.h	/^  int qty;$/;"	m	struct:__anon51b847510108	typeref:typename:int
 sat	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	e	enum:__anon559e55b00203
-squared	src/test.c	/^int squared(int x) { return x * x; }$/;"	f	typeref:typename:int
+squared	src/test.c	/^squared(int x)$/;"	f	typeref:typename:int
 sun	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	e	enum:__anon559e55b00203
-test_for_days_in_month	src/test.c	/^bool test_for_days_in_month(int year, int month) {$/;"	f	typeref:typename:bool
-test_for_leap_years	src/test.c	/^bool test_for_leap_years(int year) {$/;"	f	typeref:typename:bool
+test_for_days_in_month	src/test.c	/^test_for_days_in_month(int year, int month)$/;"	f	typeref:typename:bool
+test_for_leap_years	src/test.c	/^test_for_leap_years(int year)$/;"	f	typeref:typename:bool
 thu	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	e	enum:__anon559e55b00203
-time_travel	src/date.c	/^date_t time_travel(date_t d, int ndays) {$/;"	f	typeref:typename:date_t
-to_ordinal	src/date.c	/^int to_ordinal(date_t d) {$/;"	f	typeref:typename:int
-to_ordinal_cancels_out_from_ordinal	src/test.c	/^bool to_ordinal_cancels_out_from_ordinal(int n) {$/;"	f	typeref:typename:bool
+time_travel	src/date.c	/^time_travel(date_t d, int ndays)$/;"	f	typeref:typename:date_t
+to_ordinal	src/date.c	/^to_ordinal(date_t d)$/;"	f	typeref:typename:int
+to_ordinal_cancels_out_from_ordinal	src/test.c	/^to_ordinal_cancels_out_from_ordinal(int n)$/;"	f	typeref:typename:bool
 tue	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	e	enum:__anon559e55b00203
-up_until_from_ordinal_cancels_out_to_ordinal	src/test.c	/^date_t up_until_from_ordinal_cancels_out_to_ordinal(void) {$/;"	f	typeref:typename:date_t
-up_until_to_ordinal_cancels_out_from_ordinal	src/test.c	/^int up_until_to_ordinal_cancels_out_from_ordinal(void) {$/;"	f	typeref:typename:int
+up_until_from_ordinal_cancels_out_to_ordinal	src/test.c	/^up_until_from_ordinal_cancels_out_to_ordinal(void)$/;"	f	typeref:typename:date_t
+up_until_to_ordinal_cancels_out_from_ordinal	src/test.c	/^up_until_to_ordinal_cancels_out_from_ordinal(void)$/;"	f	typeref:typename:int
 wday	src/blob.h	/^  wday_t wday;$/;"	m	struct:__anon51b847510108	typeref:typename:wday_t
 wday_t	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	t	typeref:enum:__anon559e55b00203
 wed	src/date.h	/^typedef enum { sun, mon, tue, wed, thu, fri, sat } wday_t;$/;"	e	enum:__anon559e55b00203
-weekday	src/date.c	/^wday_t weekday(date_t d) {$/;"	f	typeref:typename:wday_t
+weekday	src/date.c	/^weekday(date_t d)$/;"	f	typeref:typename:wday_t
 year	src/date.h	/^  int year;$/;"	m	struct:__anon559e55b00108	typeref:typename:int
