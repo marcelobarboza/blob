@@ -1,13 +1,17 @@
 #include "blob.h"
 
-static int nclss(const int b, const blob_t *const B, const date_t d) {
+static int
+nclss(const int b, const blob_t *const B, const date_t d)
+{
   int i;
   for (i = 0; (B + i)->wday != weekday(d) && i < b; i++)
     ;
   return (B + i)->qty;
 }
 
-static int delta(const int b, const blob_t *const B, const date_t d) {
+static int
+delta(const int b, const blob_t *const B, const date_t d)
+{
   int delta = 0;
   int i;
   for (i = 0; (B + i)->wday != weekday(d) && i < b; i++)
@@ -19,17 +23,11 @@ static int delta(const int b, const blob_t *const B, const date_t d) {
   return delta;
 }
 
-void cron(const int s, const char *const S, const int b, const blob_t *const B,
-          const int h, const date_t *const H, date_t d) {
-  PGconn *conn;
-  char *query = NULL;
-  PGresult *R;
-  FILE *cronf;
-  int i = 0;
-  int j = 0;
-  int k;
-
-  conn = PQconnectdb("dbname=teaching");
+void
+cron(const int s, const char *const S, const int b, const blob_t *const B,
+     const int h, const date_t *const H, date_t d)
+{
+  PGconn *conn = PQconnectdb("dbname=teaching");
 
   if (PQstatus(conn) == CONNECTION_BAD) {
     PQfinish(conn);
@@ -39,11 +37,11 @@ void cron(const int s, const char *const S, const int b, const blob_t *const B,
   if (S == NULL)
     exit(EXIT_FAILURE);
 
-  query = malloc((14 + s) * sizeof(char));
+  char *query = malloc((14 + s) * sizeof(char));
   strcpy(query, "SELECT * FROM ");
   strcat(query, S);
 
-  R = PQexec(conn, query);
+  PGresult *R = PQexec(conn, query);
 
   free(query);
 
@@ -53,11 +51,15 @@ void cron(const int s, const char *const S, const int b, const blob_t *const B,
     exit(EXIT_FAILURE);
   }
 
-  cronf = fopen("cron.md", "w");
+  FILE *cronf = fopen("cron.md", "w");
 
   if (cronf == NULL) {
     exit(EXIT_FAILURE);
   }
+
+  int i = 0;
+  int j = 0;
+  int k;
 
   while (i < PQntuples(R)) {
     if (!found_in(h, H, d)) {
@@ -94,7 +96,9 @@ void cron(const int s, const char *const S, const int b, const blob_t *const B,
   fclose(cronf);
 }
 
-void blober(const int b, blob_t **B, const date_t d) {
+void
+blober(const int b, blob_t **B, const date_t d)
+{
   int i, j;
   blob_t b_tmp;
   *B = malloc(b * sizeof(blob_t));

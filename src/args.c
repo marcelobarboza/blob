@@ -1,6 +1,8 @@
 #include "args.h"
 
-void help(void) {
+void
+help(void)
+{
   printf("Usage:\n\n\
 \tblob (-t|--table) T (-y|--year) Y (-m|--month) M (-d|--day) D (-b|--blobs) B\
 \n\nwhere\n\n\
@@ -14,7 +16,9 @@ version of this at my github page:\n\n\
 \thttps://github.com/marcelobarboza/blob\n\n");
 }
 
-void parser(int a, char **A, char **T, int *Y, int *M, int *D, int *B) {
+void
+parser(int a, char **A, char **T, int *Y, int *M, int *D, int *B)
+{
   for (int i = 1; i <= 9; i += 2)
     if (strcmp("-t", A[i]) == 0 || strcmp("--table", A[i]) == 0) {
       *T = malloc(strlen(A[i + 1]) * sizeof(char));
