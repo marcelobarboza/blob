@@ -2,5 +2,6 @@
 *.out
 .DS_Store
 .clang-format
+blob
 cron.md
 tags
