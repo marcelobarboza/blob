@@ -1,7 +1,7 @@
 #include "args.h"
 #include "blob.h"
 
-#define HDAYS 15
+#define HDAYS 22
 
 int main(int argc, char **argv) {
   if (argc == 2) {
@@ -26,13 +26,19 @@ int main(int argc, char **argv) {
                               time_travel(EASTER, -3),
                               time_travel(EASTER, 60),
                               {YEAR, 4, 21},
+                              {YEAR, 8, 6},
                               {YEAR, 9, 7},
                               {YEAR, 10, 12},
+                              {YEAR, 10, 15},
                               {YEAR, 10, 28},
                               {YEAR, 11, 2},
                               {YEAR, 11, 15},
-                              {YEAR, 12, 24},
+                              {YEAR, 12, 15},
                               {YEAR, 12, 25},
+                              {YEAR, 12, 27},
+                              {YEAR, 12, 28},
+                              {YEAR, 12, 29},
+                              {YEAR, 12, 30},
                               {YEAR, 12, 31}};
 
     bubble_sort(HDAYS, holidays);
