@@ -1,7 +1,7 @@
 #include "args.h"
 #include "blob.h"
 
-#define HDAYS 22
+#define HDAYS 21
 
 int main(int argc, char **argv) {
   if (argc == 2) {

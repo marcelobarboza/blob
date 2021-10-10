@@ -18,7 +18,6 @@ Configure	doc/deployment.md	/^### Configure$/;"	S	chapter:Deployment Instruction
 Contact	README.md	/^### Contact$/;"	S	chapter:Blob
 Contribution Guidelines	README.md	/^### Contribution Guidelines$/;"	S	chapter:Blob
 DATE_H_INCLUDED	src/date.h	/^#define DATE_H_INCLUDED$/;"	d
-DIRS	makefile	/^DIRS    = -Isrc -I\/usr\/include\/postgresql$/;"	m
 Database Configuration	README.md	/^### Database Configuration$/;"	S	chapter:Blob
 Database Configuration	doc/database.md	/^# Database Configuration$/;"	c
 Days Of The Week	doc/blob.md	/^### Days Of The Week$/;"	S
@@ -29,6 +28,7 @@ External Dependencies	README.md	/^### External Dependencies$/;"	S	chapter:Blob
 External Dependencies	doc/dependencies.md	/^### External Dependencies$/;"	S
 GCC	doc/dependencies.md	/^##### GCC$/;"	T	subsection:External Dependencies
 HDAYS	main.c	/^#define HDAYS /;"	d	file:
+INCLUDE	makefile	/^INCLUDE = -Isrc -I\/usr\/include\/postgresql$/;"	m
 LIBS	makefile	/^LIBS    = -lpq$/;"	m
 MENU_H_INCLUDED	src/args.h	/^#define MENU_H_INCLUDED$/;"	d
 PostgreSQL	doc/dependencies.md	/^##### PostgreSQL$/;"	T	subsection:External Dependencies
